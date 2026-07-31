@@ -17,8 +17,7 @@ function Cart() {
   }
   
   return (
-    <div>
-        //componente Daisy
+    <div>        
         <ul>            
             {cart.map (prod => (
                <li>  

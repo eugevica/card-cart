@@ -15,7 +15,7 @@ function Item ({item}) {
                 <p>{item.price}</p>
                 <div>
                     <button className="btn btn-primary"
-                    onClick={() => navigate('/item/${item.id}')}> filtrar </button>
+                    onClick={() => navigate(`/item/${item.id}`)}> filtrar </button>
                 </div>
             </div>
         </div>

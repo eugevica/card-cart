@@ -11,7 +11,7 @@ function CartProvider({ children} ) {
 
     const getCartTotal = () => cart.reduce ((acu, curr) => acu + (curr.count*curr.price), 0)
 
-    const removeFromCart = (prod) => {
+    const deleteFromCart = (prod) => {
       const cartCopy = cart.filter (item => isValidElement.id !== prod.id) 
       setCart (cartCopy)
     }
