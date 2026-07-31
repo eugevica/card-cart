@@ -21,7 +21,7 @@ function CartProvider({ children} ) {
     }
   
     return (
-    <CartContext.Provider value = {{ addToCart, getProdsInCart, cart, getCartTotal, removeFromCart }} >
+    <CartContext.Provider value = {{ addToCart, getProdsInCart, cart, getCartTotal, deleteFromCart }} >
         {children}
     </CartContext.Provider>
 
