@@ -19,6 +19,7 @@ function CartProvider({ children} ) {
     const clearCart = () => {
     setCart([])
     }
+    
   
     return (
     <CartContext.Provider value = {{ addToCart, getProdsInCart, cart, getCartTotal, deleteFromCart }} >
